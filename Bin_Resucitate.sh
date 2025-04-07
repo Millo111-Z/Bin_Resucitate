@@ -11,11 +11,11 @@ figlet -f term telegram http://t.me/ZonaPremim -c
 figlet -f term ____________________________________ -c
 echo ""    
 echo "[#] Primer extrapolacion, escriba los 4 ultimos digitos de una cc real"
-read -p "(>_) 4 digitos /> " CCR
+read -p "(>_) 4 digitos /> 3340 " CCR
 echo ""
 echo "[#] escriba dos tarjetas generadas de un bin de 6 digitos sin el cvv y fecha"
-read -p "(>_) tarjeta generada N° 1, /> " TG1
-read -p "(>_) tarjeta generada N° 2, /> " TG2
+read -p "(>_) tarjeta generada N° 1, /> 4918717456680455" TG1
+read -p "(>_) tarjeta generada N° 2, /> 4918710643840868" TG2
 echo ""
 figlet -f term =============== extrapolacion num. 1 ===============  -c
 echo "" 
